@@ -20,5 +20,7 @@
     
 ## Project 2 - Creating a serverless solution to operate a DynamoDB table using API Gateway and Lambda by [Saha Rajdeep](https://github.com/saha-rajdeep/serverless-lab)
 
-- 
-
+- Steps provided by Rajdeep does not seem to work. Lambda function unable to read the body of the API request in Postman.
+- Solution: Change to Lambda Proxy Integration using 'AWS_PROXY' in aws_api_gateway_integration resource
+- Edited python code to read from body of event. And also to return a proper response to API Gateway.
+- Added error handling features using aws_error_utils package
