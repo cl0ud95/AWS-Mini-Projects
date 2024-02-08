@@ -1,5 +1,5 @@
 # Terraform Mini Projects
----
+
 - Mini projects created in AWS using Terraform
 	- 1: Bootstrapping the remote backend to AWS S3 bucket
 	- 2: Creating a generic VPC network with 1 subnet and 1 internet gateway
@@ -8,13 +8,13 @@
 - Backend configuration is stored in the env folder
   
 ## Requirements
----
+
 - AWS account with relevant permissions
 - AWS CLI [installed](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - Terraform [installed](https://developer.hashicorp.com/terraform/install?product_intent=terraform)
 
 ## Instructions
----
+
 - `git clone` repo
 - Project 1:
 	- Add your backend bucket name and state file name to the variables.
