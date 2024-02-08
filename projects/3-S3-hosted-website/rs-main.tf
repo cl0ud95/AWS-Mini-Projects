@@ -6,7 +6,7 @@ terraform {
     }
   }
 
-  # terraform init -backend-config="../../../env/backend-mini-projects.hcl"
+  # terraform init -backend-config="../../env/backend-mini-projects.hcl"
   backend "s3" {}
 }
 

@@ -1,4 +1,16 @@
 ### Tested 16/1/2024, Working
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.32.1"
+    }
+  }
+
+  # terraform init -backend-config="../../env/backend-mini-projects.hcl"
+  backend "s3" {}
+}
+
 
 # Provider clause
 provider "aws" {

@@ -5,7 +5,7 @@ variable "backend_bucket_name" {
 }
 
 variable "backend_key" {
-  description = "Name of VPC"
+  description = "Name of state file"
   type = string
   default = "tf-infra/terraform.tfstate"
 }
