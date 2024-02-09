@@ -1,4 +1,4 @@
-## Project 1 - Hosting a website on AWS S3 by [techwithlucy](https://github.com/techwithlucy/youtube/blob/main/5-mini-aws-projects.md)
+## Project 3 - Hosting a website on AWS S3 by [techwithlucy](https://github.com/techwithlucy/youtube/blob/main/5-mini-aws-projects.md)
 
 - Two options available: Routing to website using Route53 or by using CloudFront to cache website.
 - Assumes that custom domain name is already registered on Route53.
@@ -16,7 +16,7 @@
     - [Using OAC to restrict access to S3](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html)
     - Browser cache might need clearing if webpage still cannot be accessed.
 
-## Project 2 - Creating a serverless solution to operate a DynamoDB table using API Gateway and Lambda by [Saha Rajdeep](https://github.com/saha-rajdeep/serverless-lab)
+## Project 3 - Creating a serverless solution to operate a DynamoDB table using API Gateway and Lambda by [Saha Rajdeep](https://github.com/saha-rajdeep/serverless-lab)
 
 - Steps provided by Rajdeep does not seem to work. Lambda function unable to read the body of the API request in Postman.
 - Solution: Change to Lambda Proxy Integration using 'AWS_PROXY' in aws_api_gateway_integration resource.
